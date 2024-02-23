@@ -1,0 +1,65 @@
+*{
+  font-family: "Space Mono", monospace;
+}
+  body {
+  display: flex;
+  flex-direction:row-reverse;
+  /* justify-content: center; */
+  align-items:flex-end;
+  height: 90vh;
+  background-color: rgb(12, 12, 12);
+}
+.container {
+  background-color: blueviolet;
+  height: 400px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 2px green solid;
+  text-align: center;
+  border-radius: 1rem;
+  margin-right: 20%;
+  margin-bottom: 7%;
+}
+.input {
+  background-color: rgb(26, 26, 26);
+  width: 85%;
+  height: 20%;
+  margin-top: 0.5rem;
+  font-size: 600;
+  border-radius: 1rem;
+  text-align: center;
+
+}
+
+.login {
+  width: 90%;
+  border-radius: 10px;
+  height: 35px;
+  background-color: rgb(105, 0, 0);
+  margin-top: 10px;
+}
+.sign-forget {
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: yellow;
+  height: 19%;
+}
+.btns {
+  border-radius: 10px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: pink;
+  font-weight: 700;
+  cursor: pointer;
+}
+.btns:hover {
+  opacity: 0.84;
+  scale: 1.02;
+}
+.input {
+  background-color: orange;
+}
