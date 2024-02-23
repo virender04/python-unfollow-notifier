@@ -1,2 +1,9 @@
-# python-unfollow-notifier
-this notifies when someome unfollows you
+
+# Project Title
+
+This project notifies when someome unfollows you on instagram
+
+## Deployment
+
+coming soon
+
